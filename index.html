@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Lobster|Nothing+You+Could+Do" rel="stylesheet">
+    <title> Circle Challenge</title>
+  </head>
+
+<body onbeforeunload="return myFunction()">
+  <div class="inputBar">
+    <h1>Compare planet sizes to Earth</h1>
+<p class="instructions">1. Choose a radius and see what planet you generate! 2. Compare with the relative size of Earth (defualt radius of 100). 3. Understand: NASA would not approve of this scale.</p></br>
+  <form>
+    <input type= "text" placeholder="Choose a radius" name="inputtedRadius">
+    <input type="button" value="Calculate" onclick="drawCircle()">
+  </form>
+
+  </br>
+  <p id="areaDeclared"> <strong> Bonus: </strong> What's the area of your interstellar circle, you ask? </p>
+</br></br>
+</div>
+<div id="circleDiv">
+</div>
+
+<script type="text/javascript" src="circlejava.js">
+window.onbeforeunload = function() { prompt("Are you sure you want to leave?"); }
+</script>
+</body>
+<footer></footer>
+
+
+</html>

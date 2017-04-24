@@ -1,0 +1,39 @@
+
+.inputBar{
+  height:auto;
+  margin-top: 2%;
+  margin-bottom:0;
+  background-color:black;
+  text-align:center;
+}
+h1{
+  color:white;
+  font-family:'Kaushan Script', 'Lobster', cursive;
+  font-size:250%;
+  margin:0;
+}
+body {
+    background-image: url("images/Star2.gif");
+    background-size:cover;
+}
+#areaDeclared{
+  color:white;
+}
+#circleDiv{
+  margin:auto;
+  position: relative;
+}
+
+p{
+  color:white;
+  margin:auto;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size:85%;
+}
+footer{
+  position:fixed;
+  bottom:0;
+  width:98%;
+  height:5%;
+  background:black;
+}
