@@ -10,7 +10,7 @@ var area = calcArea(radius);
 
 
 var declareArea = document.getElementById('areaDeclared');
-declareArea.innerText = "The area of this circle is: " + area + "!";
+declareArea.innerText = "The area of this circle is: " + area + "! ";
 declareArea.style.color='white';
 declareArea.style.textAlign='center';
 document.body.appendChild(declareArea);
@@ -20,6 +20,7 @@ document.body.appendChild(declareArea);
 
 //Mercury
 if(radius <=38){
+var planet = "Mercury";
   var circleDiv = document.getElementById('circleDiv');
   circleDiv.style.backgroundImage="url(images/mercury.png)";
     circleDiv.style.backgroundSize='cover';
